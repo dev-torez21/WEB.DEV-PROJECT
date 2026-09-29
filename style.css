@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* CSS Reset */
 * {
@@ -102,7 +103,7 @@ img {
     text-align: center;
     margin: 40px 78px;
     padding: 15px 15px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 30px;
     border: 2px solid #2E6AC2;
     text-decoration: none;
@@ -137,7 +138,7 @@ img {
     background-color: #F5F6F7;
     display: flex;
     margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .flex-child3 {
@@ -174,7 +175,11 @@ img {
     border-radius: 100px;
     border: 2px solid #1a73e8;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
+}
+
+.atag:hover {
+    border: none;
 }
 
 .para {
@@ -189,85 +194,1219 @@ img {
     line-height: 1.5;
 }
 
-.card {
-    background-color: #F5F6F7;
-    display: flex;
-    border: 2px solid peru;
+.FC3CARDS {
     width: 100%;
-    border-radius: 20px;
-    /* padding: 30px 30px; */
-    margin-top: 33px;
+    max-width: 100%;
+    max-height: 100%;
+    /* border: 2px solid yellow; */
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    gap: 22px;
     margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.FC3C1 {
+    width: 33.3%;
+    max-width: 100%;
+    max-height: 100%;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    padding: 65px 25px;
+}
+
+.FC3C2 {
+    width: 33.3%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid pink; */
+    padding: 65px 25px;
+    border-radius: 20px;
+}
+
+.FC3C3 {
+    width: 33.3%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #FFFFFF;
+    /* border: 2px solid red; */
+    text-align: center;
+    justify-content: space-between;
+    padding: 65px 25px;
+    border-radius: 20px;
+}
+
+.FC3C1img {
+    padding-bottom: 20px;
+}
+
+.FC3C1img a {
+    border-radius: 100%;
+}
+
+.FC3C1 h3 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.FC3C1 h3 a {
+    color: #202124;
+    text-decoration: none;
+}
+
+.FC3C1 h3 :hover {
+    text-decoration: underline;
+}
+
+.FC3C1div {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    padding-bottom: 45px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.FC3C1LM a {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    color: #1A73E8;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid #1A73E8;
+    padding: 10px 30px;
+    text-align: center;
     margin-right: 70px;
     margin-left: 70px;
-    gap: 20px;
-    justify-content: space-around;
-    text-align: center;
-    display: col;
-    /* padding: 70px; */
-}
-.cont {
-    width: 33.3%;
-    border: 2px solid orangered;
-    /* padding: 10px; */
 }
 
-.cont2 {
-    width: 33.3%;
-    border: 2px solid brown;
+.FC3C1LM :hover {
+    border: none;
 }
 
-.cont3 {
-    width: 33.3%;
-    border: 2px solid blue;
-    border-radius: 25px;
-}
-
- .img {
-    border: 2px solid #F5F6F7;
-    border-radius: 100%;
-    margin-bottom: 10px;
-
-    padding-top: 70px;
-    /* background-color:; */
-}
-.card h2 {
-    font-family:  "Google Sans", sans-serif;
+.FC3C2 h3 {
+    font-family: "Google Sans", sans-serif;
     font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.FC3C2 h3 a {
+    color: #202124;
+    text-decoration: none;
+}
+
+.FC3C2 h3 :hover {
+    text-decoration: underline;
+}
+
+.FC3C3 h3 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.FC3C3 h3 a {
+    color: #202124;
+    text-decoration: none;
+}
+
+.FC3C3 h3 :hover {
+    text-decoration: underline;
+}
+
+.PS4 {
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    /* border: 2px solid green; */
+}
+
+.PS4A-hero {
+    display: flex;
+    display: col;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.PS4A-hero h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #202124;
+    letter-spacing: -1px;
+}
+
+.PS4A-hero a {
+    padding: 10px 30px;
+    color: #1A73E8;
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 2px solid #1a73e8;
+    text-align: center;
+}
+
+.PS4A-hero :hover {
+    border: none;
+}
+
+.PS4A-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
     font-weight: 400;
     color: #202124;
-    /* text-decoration: none; */
+    padding-bottom: 70px;
+}
+
+.PS4B {
+    width: 100%;
+    /* border: 2px solid fuchsia; */
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 20px;
+}
+
+.PS4B-div1 {
+    width: 33.3%;
+    /* border: 2px solid yellow; */
+    max-width: 100%;
+    max-height: 100%;
+    padding: 70px 30px;
+    background-color: #F5F6F7;
+    border-radius: 30px;
+}
+
+.PS4B-div2 {
+    width: 33.3%;
+    /* border: 2px solid greenyellow; */
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #F5F6F7;
+    padding: 70px 30px;
+    border-radius: 30px;
+
+}
+
+.PS4B-div3 {
+    width: 33.3%;
+    /* border: 2px solid red; */
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #F5F6F7;
+    border-radius: 30px;
+    padding: 70px 30px;
+}
+
+.PS4B-div1 span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #174EA6;
+}
+
+.PS4B-div2 span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #174EA6;
+}
+
+.PS4B-div3 span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #174EA6;
+}
+
+.PS4B-hero {
+    padding-top: 10px;
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
     padding-bottom: 30px;
 }
-.alli {
+
+.PS4B-hero a {
+    color: #202124;
     text-decoration: none;
-} 
-.card p {
+}
+
+.PS4B-hero :hover {
+    text-decoration: underline;
+}
+
+.PS4B-PARA {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.PS4B-BUTTON a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    margin-right: 70px;
+    margin-left: 70px;
+    color: #174EA6;
+    text-decoration: none;
+}
+
+.PS4B-BUTTON :hover {
+    background-color: #174EA6;
+    color: #ffffff;
+}
+
+.PS5 {
+    background-color: #F5F6F7;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.PS5base {
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+    /* margin-bottom: 30px; */
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.PS5A h3 {
+    padding-top: 40px;
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    /* text-align: center; */
+    padding-bottom: 30px;
+}
+
+.PS5A-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* text-align: center; */
+    padding-bottom: 30px;
+}
+
+.PS5A {
+    width: 78%;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.PS5B {
+    width: 22%;
+    padding-top: 60px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.PS5A-BUTTON a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.PS5A-BUTTON :hover {
+    background-color: #174EA6;
+    color: #ffffff;
+}
+
+.PS5A-BUTTON {
+    padding-bottom: 50px;
+}
+
+.PS6 {
+    background-color: #ffffff;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.PS6base {
+    margin: 70px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 25px;
+}
+
+.PS6A {
+    width: 33.3%;
+    /* border: 2px solid red; */
+}
+
+.PS6B {
+    width: 33.3%;
+    /* border: 2px solid orange; */
+}
+
+.PS6C {
+    width: 33.3%;
+    /* border: 2px solid blue; */
+}
+
+.PS6A h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS6A-Para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    color: #202124;
+}
+
+.PS6A-Para a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1A73E8;
+}
+
+.PS6-button a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.PS6-button :hover {
+    border: none;
+}
+
+.PS6-button {
+    padding-bottom: 30px;
+}
+
+.PS6B h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS6B h3 :hover {
+    text-decoration: underline;
+}
+
+.PS6B h3 {
+    padding-bottom: 20px;
+}
+
+.PS6B-para {
     font-family: "Google Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #202124;
-    line-height: 1.5rem;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
-.learn {
+
+.PS6B-Hero2 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS6B-Hero2 :hover {
+    text-decoration: underline;
+}
+
+.PS6B-end {
     font-family: "Google Sans", sans-serif;
     font-size: 16px;
-    font-family: 500;
-    color: #1A73E8;
-    text-decoration: none;
-    /* margin: 40px 78px; */
-    /* padding: 15px 15px; */
-    border-radius: 30px;
-    border: 2px solid #2E6AC2;
-    /* margin: 70px; */
-    margin-bottom: 95px;
-    padding: 10px;
+    font-weight: 400;
+    color: #202124;
 }
-/* .card div image {
+
+.PS6C h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     text-decoration: none;
-} */
- 
+    color: #202124;
+}
+
+.PS6C h3 {
+    padding-bottom: 20px;
+}
+
+.PS6C h3 :hover {
+    text-decoration: underline;
+}
+
+.PS6C-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 75px;
+}
+
+.PS6C-Hero2 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    text-decoration: none;
+}
+
+.PS6C-Hero2 :hover {
+    text-decoration: underline;
+}
+
+.PS6C-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS7 {
+    background-color: #F5F6F7;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    /* width: 100%; */
+}
+
+.PS7-base {
+    margin: 70px;
+    margin-bottom: 0px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.PS7A {
+    width: 33.3%;
+    /* border: 2px solid red; */
+    padding-bottom: 30px;
+}
+
+.PS7B {
+    width: 33.3%;
+    /* border: 2px solid orange; */
+}
+
+.PS7C {
+    width: 33.3%;
+    /* border: 2px solid blue; */
+}
+
+.PS7A h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS7A-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS7A-button a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+.PS7A-button :hover {
+    border: none;
+}
+
+.PS7A-button {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.PS7B h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS7B h3 {
+    padding-bottom: 25px;
+}
+
+.PS7B h3 :hover {
+    text-decoration: underline;
+}
+
+
+.PS7C h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS7C h3 {
+    padding-bottom: 25px;
+}
+
+.PS7C h3 :hover {
+    text-decoration: underline;
+}
+
+.PS7B-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 60px;
+}
+
+.PS7C-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 38px;
+}
+
+.PS7B-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS7C-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS9 {
+    background-color: #ffffff;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.PS9-Base {
+    margin: 70px;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 25px;
+}
+
+.PS9A {
+    width: 33.3%;
+    /* border: 2px solid red; */
+}
+
+.PS9B {
+    width: 33.3%;
+    /* border: 2px solid orange; */
+}
+
+.PS9C {
+    width: 33.3%;
+    /* border: 2px solid blue; */
+}
+
+
+.PS9A h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS9A-Para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    color: #202124;
+}
+
+.PS9-button a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.PS9-button :hover {
+    border: none;
+}
+
+.PS9-button {
+    padding-bottom: 30px;
+}
+
+.PS9B h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS9B h3 :hover {
+    text-decoration: underline;
+}
+
+.PS9B h3 {
+    padding-bottom: 20px;
+}
+
+.PS9B-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 30px;
+}
+
+.PS9B-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS9C h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS9C h3 :hover {
+    text-decoration: underline;
+}
+
+.PS9C h3 {
+    padding-bottom: 20px;
+}
+
+.PS9C-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 70px;
+}
+
+.PS9C-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS10 {
+    background-color: #F5F6F7;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    /* width: 100%; */
+}
+
+.PS10-Base {
+    margin: 70px;
+    /* margin-bottom: 0px; */
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+
+.PS10A {
+    width: 33.3%;
+    /* border: 2px solid red; */
+    padding-bottom: 30px;
+}
+
+.PS10B {
+    width: 33.3%;
+    /* border: 2px solid orange; */
+}
+
+.PS10C {
+    width: 33.3%;
+    /* border: 2px solid blue; */
+}
+
+.PS10A h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS10A-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS10A-button a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+.PS10A-button :hover {
+    border: none;
+}
+
+.PS10A-button {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.PS10B h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS10B h3 {
+    padding-bottom: 25px;
+}
+
+.PS10B h3 :hover {
+    text-decoration: underline;
+}
+
+
+.PS10C h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS10C h3 {
+    padding-bottom: 25px;
+}
+
+.PS10C h3 :hover {
+    text-decoration: underline;
+}
+
+
+.PS10B-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 80px;
+}
+
+.PS10C-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 40px;
+}
+
+.PS10B-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS10C-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+
+.PS8 {
+    background-color: #ffffff;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+
+}
+
+.PS8-BASE {
+    margin: 70px;
+    /* margin-top: 0px; */
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 25px;
+}
+
+.PS8A {
+    width: 33.3%;
+    /* border: 2px solid red; */
+}
+
+.PS8B {
+    width: 33.3%;
+    /* border: 2px solid orange; */
+}
+
+.PS8C {
+    width: 33.3%;
+    /* border: 2px solid blue; */
+}
+
+
+.PS8A h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS8A-Para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    color: #202124;
+}
+
+
+.PS8A-button a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.PS8A-button :hover {
+    border: none;
+}
+
+.PS8A-button {
+    padding-bottom: 30px;
+}
+
+.PS8B h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS8B h3 :hover {
+    text-decoration: underline;
+}
+
+.PS8B h3 {
+    padding-bottom: 20px;
+}
+
+.PS8B-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 30px;
+}
+
+.PS8B-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS8C h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS8C h3 :hover {
+    text-decoration: underline;
+}
+
+.PS8C h3 {
+    padding-bottom: 20px;
+}
+
+.PS8C-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 30px;
+}
+
+.PS8C-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS11 {
+    background-color: #F5F6F7;
+    /* border: 2px solid green; */
+    max-width: 100%;
+    max-height: 100%;
+    /* width: 100%; */
+}
+
+.PS11-Base {
+    margin: 70px;
+    /* margin-bottom: 0px; */
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    display: col;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+
+.PS11A {
+    width: 33.3%;
+    /* border: 2px solid red; */
+    /* padding-bottom: 30px; */
+}
+
+.PS11B {
+    width: 33.3%;
+    /* border: 2px solid orange; */
+}
+
+.PS11C {
+    width: 33.3%;
+    /* border: 2px solid blue; */
+}
+
+.PS11A h2 {
+    font-family: "Google Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS11A-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #202124;
+}
+
+.PS11A-button a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 2px solid #174EA6;
+    color: #174EA6;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+.PS11A-button :hover {
+    border: none;
+}
+
+.PS11A-button {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.PS11B h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS11B h3 {
+    padding-bottom: 25px;
+}
+
+.PS11B h3 :hover {
+    text-decoration: underline;
+}
+
+.PS11C h3 a {
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #202124;
+}
+
+.PS11C h3 {
+    padding-bottom: 25px;
+}
+
+.PS11C h3 :hover {
+    text-decoration: underline;
+}
+
+.PS11B-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+.PS11C-para {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+    padding-bottom: 20px;
+}
+
+.PS11B-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+.PS11C-end {
+    font-family: "Google Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #202124;
+}
+
+
+
+
+
+
+
+
 
 
 
